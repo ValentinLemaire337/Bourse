@@ -22,7 +22,7 @@ header a{
     text-shadow: 1px 1px 15px black;
 }
 header {
-    background-image: url('/assets/img/header.png');
+    background-image: url('assets/img/header.png');
     height: 1200px;
     background-size: contain;
     background-repeat:no-repeat;
