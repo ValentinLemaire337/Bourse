@@ -1,0 +1,12 @@
+h1 {
+    text-align: center;
+}
+.aboutEvent {
+    display: flex;
+    padding : 20px 50px 50px;
+    align-items: center;
+}
+.aboutEvent img {
+    padding-left: 20px;
+    height: 150px;
+}
