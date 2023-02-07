@@ -1,3 +1,33 @@
+body {
+    margin : 0;
+    padding: 0;
+}
+nav {
+    text-align: right;
+    padding-right: 80px;
+    padding-top: 7px;
+}
+nav ul li
+{
+    text-align: right;
+    display: inline;
+    justify-content: space-between;
+    padding: 0 70px;
+}
+header a{
+    font-size: 25px;
+    color: #EFA507;
+    text-decoration: none;
+    font-style:  bolder;
+    text-shadow: 1px 1px 15px black;
+}
+header {
+    background-image: url('/assets/img/header.png');
+    height: 1200px;
+    background-size: contain;
+    background-repeat:no-repeat;
+}
+
 h1 {
     text-align: center;
 }
@@ -198,7 +228,7 @@ footer a,footer p
     justify-content: center;
     padding: 8px 10px;
 }
-
-
-
 /*  */
+
+
+
