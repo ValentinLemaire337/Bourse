@@ -49,6 +49,22 @@ height: 30%;
     justify-content: center;
 }
 
+footer
+{
+    background-color: #1E0847;
+    height: 100%;
+}
+
+footer a,footer p
+{
+    display:flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    justify-content: center;
+    padding: 8px 10px;
+}
+
 
 
 /*  */
