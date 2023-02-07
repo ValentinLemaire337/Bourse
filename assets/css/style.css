@@ -10,7 +10,6 @@ h1 {
     padding-left: 20px;
     height: 150px;
 }
-    
 .products {
     text-align: center;
     background-color: #EFA507 ;
@@ -148,3 +147,58 @@ h1 {
     width: 39%;
     height: 100%;
 }
+/* Sponsors */
+.sponsors
+{
+    margin-top: 80px;
+}
+
+
+.sponsors h2 {
+    text-align: center;
+}
+
+.sponsors p 
+{
+    text-align: center;
+}
+
+
+.sponsors img
+{
+width: 15%;
+height: 30%;
+}
+
+.lineSponsor1
+{
+    display: flex;
+    justify-content: center;
+
+}
+
+.lineSponsor2
+{
+    display: flex;
+    justify-content: center;
+}
+
+footer
+{
+    background-color: #1E0847;
+    height: 100%;
+}
+
+footer a,footer p
+{
+    display:flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    justify-content: center;
+    padding: 8px 10px;
+}
+
+
+
+/*  */
