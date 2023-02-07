@@ -10,3 +10,45 @@ h1 {
     padding-left: 20px;
     height: 150px;
 }
+
+
+
+/* Sponsors */
+.sponsors
+{
+    margin-top: 80px;
+}
+
+
+.sponsors h2 {
+    text-align: center;
+}
+
+.sponsors p 
+{
+    text-align: center;
+}
+
+
+.sponsors img
+{
+width: 15%;
+height: 30%;
+}
+
+.lineSponsor1
+{
+    display: flex;
+    justify-content: center;
+
+}
+
+.lineSponsor2
+{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/*  */
