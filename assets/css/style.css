@@ -10,3 +10,21 @@ h1 {
     padding-left: 20px;
     height: 150px;
 }
+.products {
+    text-align: center;
+    background-color: #EFA507 ;
+    padding-top: 20px;
+}
+.productsImg{
+    /* max-width: 100px; */
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.productsImg img{
+    max-width: 280px;
+    height: 80%;
+    /* box-shadow: 1px 1px 20px; */
+}
+
