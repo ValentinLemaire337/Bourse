@@ -1,16 +1,53 @@
+body {
+    margin : 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+nav {
+    text-align: right;
+    padding-right: 80px;
+    padding-top: 7px;
+}
+nav ul li
+{
+    text-align: right;
+    display: inline;
+    justify-content: space-between;
+    padding: 0 70px;
+}
+header a{
+    font-size: 25px;
+    color: #EFA507;
+    text-decoration: none;
+    text-shadow: 2px 2px 5px black;
+}
+header a:hover{
+    text-shadow: 1px 1px 5px rgb(141, 128, 7);
+    font-weight: bold;
+}
+header {
+    background-image: url(/assets/img/header2.png);
+    height: 820px;
+    background-size: contain;
+    background-repeat:no-repeat;
+}
 h1 {
+    font-family: 'Roboto', sans-serif;
     text-align: center;
+    /* color: #33048E; */
+    font-size: 2em;
+    font-style: bold;
 }
 .aboutEvent {
     display: flex;
-    padding : 20px 50px 50px;
+    padding : 20px 150px 50px;
     align-items: center;
+    font-size: 1.2em;
 }
 .aboutEvent img {
-    padding-left: 20px;
-    height: 150px;
+    padding-left: 30px;
+    height: 180px;
 }
-    
 .products {
     text-align: center;
     background-color: #EFA507 ;
@@ -29,7 +66,6 @@ h1 {
     /* box-shadow: 1px 1px 20px; */
 }
 .subscribe {
-    margin-top: 80px;
     background-color: #685989;
     padding-top: 60px;
     padding: 50px;
@@ -81,7 +117,7 @@ h1 {
     gap: 20px;
     font-size: 1.5em;
     text-align: right;
-    text-shadow: 1px 1px 5px black;
+    text-shadow: 1px 1px 10px black;
 }
 .bottomContent img{
     box-shadow: none;
@@ -97,7 +133,7 @@ h1 {
     font-size: 30px;
     border-radius: 16px;
     border: none;
-    box-shadow: 1px 1px 5px black;
+    box-shadow: 1px 1px 10px black;
 }
 .subPages{
     padding: 50px;
@@ -198,3 +234,48 @@ span{
     
 }
     
+.sponsors
+{
+    margin: 80px;
+}
+.sponsors h2 {
+    text-align: center;
+}
+.sponsors p 
+{
+    text-align: center;
+    padding-bottom: 40px;
+}
+.sponsors img
+{
+    width: 200px;
+    height: 180px;
+}
+.sponsors img:first-of-type{
+    width: 150px;
+}
+.sponsors img:last-of-type{
+    width: 230px;
+}
+.lineSponsor1, .lineSponsor2
+{
+    display: flex;
+    justify-content: center;
+}
+footer
+{
+    background-color: #1E0847;
+    height: 100%;
+}
+footer a,footer p
+{
+    display:flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    justify-content: center;
+    padding: 8px 10px;
+}
+
+
+
