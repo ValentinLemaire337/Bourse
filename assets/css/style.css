@@ -7,7 +7,13 @@ nav {
     text-align: right;
     padding-right: 80px;
     padding-top: 7px;
+    background-color: #33048E ;
+    width: 100%;
 }
+.headerImg{
+    width: 100%;
+}
+
 nav ul li
 {
     text-align: right;
@@ -26,7 +32,7 @@ header a:hover{
     font-weight: bold;
 }
 header {
-    background-image: url(/assets/img/header2.png);
+    background-image: url("/assets/img/header2.png");
     height: 820px;
     background-size: contain;
     background-repeat:no-repeat;
