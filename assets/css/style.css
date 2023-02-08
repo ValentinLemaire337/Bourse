@@ -40,12 +40,12 @@ h1 {
 }
 .aboutEvent {
     display: flex;
-    padding : 20px 180px 50px;
+    padding : 20px 150px 50px;
     align-items: center;
     font-size: 1.2em;
 }
 .aboutEvent img {
-    padding-left: 20px;
+    padding-left: 30px;
     height: 180px;
 }
 .products {
@@ -117,7 +117,7 @@ h1 {
     gap: 20px;
     font-size: 1.5em;
     text-align: right;
-    text-shadow: 1px 1px 5px black;
+    text-shadow: 1px 1px 10px black;
 }
 .bottomContent img{
     box-shadow: none;
@@ -133,7 +133,7 @@ h1 {
     font-size: 30px;
     border-radius: 16px;
     border: none;
-    box-shadow: 1px 1px 5px black;
+    box-shadow: 1px 1px 10px black;
 }
 .subPages{
     padding: 50px;
@@ -184,10 +184,9 @@ h1 {
     width: 39%;
     height: 100%;
 }
-/* Sponsors */
 .sponsors
 {
-    margin-top: 80px;
+    margin: 80px;
 }
 .sponsors h2 {
     text-align: center;
@@ -195,18 +194,20 @@ h1 {
 .sponsors p 
 {
     text-align: center;
+    padding-bottom: 40px;
 }
 .sponsors img
 {
-width: 15%;
-height: 30%;
+    width: 200px;
+    height: 180px;
 }
-.lineSponsor1
-{
-    display: flex;
-    justify-content: center;
+.sponsors img:first-of-type{
+    width: 150px;
 }
-.lineSponsor2
+.sponsors img:last-of-type{
+    width: 230px;
+}
+.lineSponsor1, .lineSponsor2
 {
     display: flex;
     justify-content: center;
