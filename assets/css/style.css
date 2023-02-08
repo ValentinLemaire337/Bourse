@@ -21,6 +21,12 @@ nav ul li
     justify-content: space-between;
     padding: 0 70px;
 }
+
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+
 header a{
     font-size: 25px;
     color: #EFA507;
